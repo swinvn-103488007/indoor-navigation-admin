@@ -2,28 +2,28 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.festunavigator">
+    package="com.example.indoor_navigation">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:glEsVersion="0x00030000" android:required="true" />
     <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
 
     <application
-        android:name=".data.App"
+        android:name="com.example.indoor_navigation.data.App"
         android:allowBackup="false"
-        android:icon="@drawable/ic_app_icon"
-        android:label="@string/app_name_user"
+        android:icon="@drawable/ic_indoor_navigation_logo"
+        android:label="@string/app_name"
 
-        android:roundIcon="@drawable/ic_app_icon"
+        android:roundIcon="@drawable/ic_indoor_navigation_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.App.Starting"
         android:usesCleartextTraffic="false"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".presentation.MainActivity"
+            android:name="com.example.indoor_navigation.presentation.MainActivity"
             android:configChanges="orientation|screenSize|screenLayout"
             android:windowSoftInputMode="stateHidden|adjustPan"
-            android:theme="@style/Theme.FESTUNavigator"
+            android:theme="@style/Theme.IndoorNavigation"
             android:screenOrientation="portrait"
             android:exported="true"
             android:hardwareAccelerated="true"

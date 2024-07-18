@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/scannerFragment"
-        android:name="com.example.festunavigator.presentation.scanner.ScannerFragment"
+        android:name="com.example.indoor_navigation.presentation.scanner.ScannerFragment"
         android:label="fragment_scanner"
         tools:layout="@layout/fragment_scanner" >
         <action
@@ -24,7 +24,7 @@
     </fragment>
     <fragment
         android:id="@+id/confirmFragment"
-        android:name="com.example.festunavigator.presentation.confirmer.ConfirmFragment"
+        android:name="com.example.indoor_navigation.presentation.confirmer.ConfirmFragment"
         android:label="fragment_confirm"
         tools:layout="@layout/fragment_confirm" >
         <action
@@ -41,7 +41,7 @@
     </fragment>
     <fragment
         android:id="@+id/routerFragment"
-        android:name="com.example.festunavigator.presentation.router.RouterFragment"
+        android:name="com.example.indoor_navigation.presentation.router.RouterFragment"
         android:label="fragment_router"
         tools:layout="@layout/fragment_router" >
         <action
@@ -64,7 +64,7 @@
     </fragment>
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.example.festunavigator.presentation.search.SearchFragment"
+        android:name="com.example.indoor_navigation.presentation.search.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" >
         <argument
@@ -73,7 +73,7 @@
     </fragment>
     <fragment
         android:id="@+id/orientationFragment"
-        android:name="com.example.festunavigator.presentation.orientating.OrientationFragment"
+        android:name="com.example.indoor_navigation.presentation.orientating.OrientationFragment"
         android:label="fragment_orientation"
         tools:layout="@layout/fragment_orientation" >
         <action

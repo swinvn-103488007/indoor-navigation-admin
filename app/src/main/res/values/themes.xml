@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.FESTUNavigator" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.IndoorNavigation" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/grey_500</item>
         <item name="colorPrimaryVariant">@color/grey_700</item>
@@ -31,8 +31,8 @@
     </style>
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_app_icon</item>
-        <item name="postSplashScreenTheme">@style/Theme.FESTUNavigator</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_indoor_navigation_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.IndoorNavigation</item>
     </style>
 
 </resources>
